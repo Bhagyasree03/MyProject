@@ -1,0 +1,64 @@
+.bg-container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 100vh;
+  display: flex;
+}
+
+.heading {
+  font-family: "Roboto";
+  font-size: 20px;
+  color: black;
+}
+.paragraph {
+  font-family: "Roboto";
+  font-size: 16px;
+  color: grey;
+}
+.input-container {
+  margin: 20px;
+  padding: 6px;
+  width: 20%;
+  height: 55%;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  background-color: lightgray;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 8px;
+}
+.input-text {
+  font-family: "Roboto";
+  font-size: 14px;
+  color: black;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-width: 0;
+  border-radius: 8px;
+  outline: none;
+}
+.btn-text {
+  background-color: lightgreen;
+  border-radius: 5px;
+  outline: none;
+  border-width: 0;
+  padding: 10px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.error-message {
+  font-family: "Roboto";
+  font-size: 13px;
+  color: red;
+  padding: 10px;
+}
