@@ -33,7 +33,7 @@ const Login = () => {
         <input
           type="number"
           className="input-text"
-          placeholder="Enter Phone Number"
+          placeholder="Enter Mobile Number"
           value={number}
           onChange={(e) => setNumber(e.target.value)}
         />
